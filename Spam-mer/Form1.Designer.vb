@@ -50,7 +50,7 @@ Partial Class SpamMer
         '
         Me.closebutton.BackgroundImage = CType(resources.GetObject("closebutton.BackgroundImage"), System.Drawing.Image)
         Me.closebutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.closebutton.Cursor = System.Windows.Forms.Cursors.No
+        Me.closebutton.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.closebutton.FlatAppearance.BorderSize = 0
         Me.closebutton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red
         Me.closebutton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White

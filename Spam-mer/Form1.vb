@@ -113,4 +113,12 @@ stp:
             e.Handled = True
         End If
     End Sub
+
+    Private Sub SpamMer_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+        'start message
+
+        MsgBox("This program is in alpha stage and still developing" & vbNewLine & vbNewLine & "And there can be a lot of bugs and translation errors.", MsgBoxStyle.Information, "Starting message")
+
+    End Sub
 End Class
