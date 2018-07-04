@@ -11,13 +11,15 @@ Public Class SpamMer
     Public running As Boolean = False
     Public pidextising As Boolean = False
     Public pid As Integer
-
+    Dim r, g, b As Integer
     Private Sub closebutton_Click(sender As Object, e As EventArgs) Handles closebutton.Click
 
         'closing app
-        Timer1.Stop()
-        Me.Close()
-
+        If MsgBox("Are you sure you want to leave?", MsgBoxStyle.YesNo, "!WARN!NG! You are leaving") = MsgBoxResult.Yes Then
+            'press yes             
+            Timer1.Stop()
+            Me.Close()
+        End If
     End Sub
 
 
@@ -95,7 +97,6 @@ stp:
     End Sub
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
-
         'randomizing
 
         Dim k As String() = {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "r", "s", "t", "u", "v", "y", "z"}
@@ -108,11 +109,27 @@ stp:
 
     End Sub
 
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        howuse.Show()
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+
+    End Sub
+
+
+
     Private Sub TextBox1_KeyPress(sender As Object, e As KeyPressEventArgs) Handles TextBox1.KeyPress
         If Not (Char.IsNumber(e.KeyChar) = True) And e.KeyChar <> ChrW(Keys.Back) Then
             e.Handled = True
         End If
     End Sub
+
+
 
     Private Sub SpamMer_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
@@ -121,4 +138,6 @@ stp:
         MsgBox("This program is in alpha stage and still developing" & vbNewLine & vbNewLine & "And there can be a lot of bugs and translation errors.", MsgBoxStyle.Information, "Starting message")
 
     End Sub
+
+
 End Class

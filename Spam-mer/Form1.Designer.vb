@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class SpamMer
     Inherits System.Windows.Forms.Form
 
     'Form, bileşen listesini temizlemeyi bırakmayı geçersiz kılar.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,13 +20,13 @@ Partial Class SpamMer
     'NOT: Aşağıdaki yordam Windows Form Tasarımcısı için gereklidir
     'Windows Form Tasarımcısı kullanılarak değiştirilebilir.  
     'Kod düzenleyicisini kullanarak değiştirmeyin.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(SpamMer))
         Me.closebutton = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
+        Me.Label5 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Button5 = New System.Windows.Forms.Button()
@@ -41,6 +41,7 @@ Partial Class SpamMer
         Me.NumericUpDown1 = New System.Windows.Forms.NumericUpDown()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -64,7 +65,7 @@ Partial Class SpamMer
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.DarkBlue
-        Me.Panel1.Controls.Add(Me.LinkLabel1)
+        Me.Panel1.Controls.Add(Me.Label5)
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Controls.Add(Me.closebutton)
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
@@ -72,16 +73,16 @@ Partial Class SpamMer
         Me.Panel1.Size = New System.Drawing.Size(377, 40)
         Me.Panel1.TabIndex = 1
         '
-        'LinkLabel1
+        'Label5
         '
-        Me.LinkLabel1.AutoSize = True
-        Me.LinkLabel1.LinkColor = System.Drawing.Color.White
-        Me.LinkLabel1.Location = New System.Drawing.Point(197, 10)
-        Me.LinkLabel1.Name = "LinkLabel1"
-        Me.LinkLabel1.Size = New System.Drawing.Size(104, 26)
-        Me.LinkLabel1.TabIndex = 3
-        Me.LinkLabel1.TabStop = True
-        Me.LinkLabel1.Text = "We dont responsible" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "for any abuse! "
+        Me.Label5.AutoSize = True
+        Me.Label5.BackColor = System.Drawing.Color.Transparent
+        Me.Label5.ForeColor = System.Drawing.Color.White
+        Me.Label5.Location = New System.Drawing.Point(208, 9)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(107, 26)
+        Me.Label5.TabIndex = 2
+        Me.Label5.Text = "We don't responsible" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "      for any abuse!     "
         '
         'Label1
         '
@@ -234,11 +235,21 @@ Partial Class SpamMer
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(75, 149)
+        Me.Label2.Location = New System.Drawing.Point(87, 149)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(185, 13)
         Me.Label2.TabIndex = 12
         Me.Label2.Text = "Send random messages to active app"
+        '
+        'LinkLabel1
+        '
+        Me.LinkLabel1.AutoSize = True
+        Me.LinkLabel1.Location = New System.Drawing.Point(313, 222)
+        Me.LinkLabel1.Name = "LinkLabel1"
+        Me.LinkLabel1.Size = New System.Drawing.Size(61, 13)
+        Me.LinkLabel1.TabIndex = 6
+        Me.LinkLabel1.TabStop = True
+        Me.LinkLabel1.Text = "!Feedback!"
         '
         'SpamMer
         '
@@ -247,6 +258,7 @@ Partial Class SpamMer
         Me.BackColor = System.Drawing.Color.DodgerBlue
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.ClientSize = New System.Drawing.Size(378, 326)
+        Me.Controls.Add(Me.LinkLabel1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.NumericUpDown1)
         Me.Controls.Add(Me.CheckBox1)
@@ -271,7 +283,6 @@ Partial Class SpamMer
 
     Friend WithEvents closebutton As Button
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents LinkLabel1 As LinkLabel
     Friend WithEvents Label1 As Label
     Friend WithEvents Panel2 As Panel
     Friend WithEvents Button2 As Button
@@ -286,4 +297,6 @@ Partial Class SpamMer
     Friend WithEvents NumericUpDown1 As NumericUpDown
     Friend WithEvents Timer1 As Timer
     Friend WithEvents Label2 As Label
+    Friend WithEvents Label5 As Label
+    Friend WithEvents LinkLabel1 As LinkLabel
 End Class
