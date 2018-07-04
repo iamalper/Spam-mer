@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="Button1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="closebutton.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
-        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAsTAAALEwEAmpwYAACpFklE
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAsPAAALDwGS+QOlAACpFklE
         QVR4Xu29CdwsV13mf/O+b/e73iX3Zrk3yU0IIQnZLwlL4lz0soqAYNgdl2FRZBVnHNDBBRcERlBHUWRR
         cVQUUEA2x5VlRGVQVgHBcfiPCCNLICZkAbP4/z11n1Op6j5Vdc6vT3ed7v49n88DeW/196n6nTp1znn7
         7a7aZTKZsteG+LD4buIHiB8nfqr4h8QvFr9C/Frx28TvFv+1+KPiT4k/K/6S+HrxzeJbxLeJ/23E+Dds
@@ -2366,7 +2366,7 @@
   <data name="Button4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
-        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAsTAAALEwEAmpwYAACelklE
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAsPAAALDwGS+QOlAACelklE
         QVR4Xu29CbwsWVXmWzfPyTzTvXXHqrrUdGukLCwsqCpo0IIuJxqHduj2aZWCduEISrct7RMn7Ket3U9b
         QVERbAFbHEB9SosjTigqPQiNE1BoQwO2AkIhgzJUlW99cb6IG5GxI2LtFTsyIzPX9/t9v6pzI/9f7LV3
         5N775MmMvMDlcrmMepD4M8TfIH6h+LfF94jfJf6Q+B/oD4rfKX6d+DfE/0n8teLHiU+LXS7XKuqTPumO
@@ -3853,4 +3853,7 @@
         Vh0FzM/8QmB+5hcC8zO/EFAP0qfgEvrd5Cb/H9lpCsnZlPqtAAAAAElFTkSuQmCC
 </value>
   </data>
+  <metadata name="Timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>
