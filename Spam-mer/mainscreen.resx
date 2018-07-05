@@ -846,7 +846,7 @@
         seKYG9VRb7Qsz/JiBF6MHOclzNu16/8HX6MNnb+hBZMAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="Button5.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="developersbutton.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAp/dJREFUeF7t
         /Xuwddt51gee8+1v7+969J2jc5FsWedqWZasSOjGsdJS+biDSRyKso0T40tigumQhKRSXemGP7oKgh3c
@@ -1568,7 +1568,7 @@
         DeOtevGeIr8kfq/4+8R/WPxVsvF/jmF9KSqdd999/39vRQUWpV6xhQAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="Button3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="helpbutton.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAuKNJREFUeF7t
         vQm8JFdd9j+593b33WbmzkxmSWYmmSRAViCQkBBIIOw776uAwMsmiCiLosAfEUQFBPF9UUBUBARRFJBF
@@ -2361,7 +2361,7 @@
         wL/xhP4o+EHwT8AXw/w+/li4tj086g2S5VleiMjDzMm9BfO2bfv/AX6SCMxYqxFbAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="Button4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="rateusbutton.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
         JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAsNAAALDQHtB8AsAACelklE
@@ -3044,7 +3044,7 @@
         9f9e8VvFuKfHL4rxVeFfK8YdQPGdJMHnZcLnb6bVzLvggv8flerD+GknBZIAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="Button2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="settingsbutton.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAu9JJREFUeF7t
         fQm4LFdZLZxzuvtM9547JfcmN3NICJkhBBJfogEVkcEBVJxAZVLAxywiKspDHyCIM4gIiBOIAwiCIKKI
