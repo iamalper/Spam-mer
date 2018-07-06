@@ -114,7 +114,7 @@ stp:
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles developersbutton.Click
 
         'Developers message
-        MsgBox("Powered by DOSTeam" & vbNewLine & vbNewLine & "Developers : Meka_4756 and SPYWRD", MsgBoxStyle.Information, "Developers")
+        MsgBox("Powered by DOSTeam" & vbNewLine & vbNewLine & "Developers : Meka_4756 and SPYWRD3454", MsgBoxStyle.Information, "Developers")
 
     End Sub
 
