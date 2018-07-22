@@ -44,4 +44,8 @@ Public Class settings
             e.Handled = True
         End If
     End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        process_list.ShowDialog()
+    End Sub
 End Class
