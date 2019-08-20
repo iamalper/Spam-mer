@@ -100,7 +100,7 @@ stp:
     End Sub
 
     Private Sub Feedback(sender As Object, e As EventArgs) Handles rateusbutton.Click
-        MsgBox("Please do not rate us for now :)", MsgBoxStyle.Information, "Rate Us")
+        MsgBox("We dont add feedback page yet" + vbNewLine + vbNewLine + "Please do not rate us for now :)", MsgBoxStyle.Information, "Rate Us")
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles helpbutton.Click
@@ -124,7 +124,7 @@ stp:
 
         'start message
 
-        MsgBox("This program is in alpha stage and still developing" & vbNewLine & vbNewLine & "And there can be a lot of bugs and translation errors.", MsgBoxStyle.Information, "Starting message")
+        MsgBox("This little program is in alpha stage and still developing" & vbNewLine & vbNewLine & "And there can be a lot of bugs and translation errors.", MsgBoxStyle.Information, "Starting message")
 
     End Sub
 

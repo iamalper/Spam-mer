@@ -21,17 +21,25 @@ Public Class settings
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Me.Close()
+
         'PID setting
 
         If CheckBox1.Checked = True Then
 
-            SpamMer.pidextising = True
-            SpamMer.pid = TextBox1.Text
+            If SpamMer.pid > 0 Then
+                SpamMer.pidextising = True
+                SpamMer.pid = TextBox1.Text
+            Else
+
+                MsgBox("PID must be bigger than zero", MsgBoxStyle.Critical, "PID error")
+                Exit Sub
+
+            End If
 
         Else
 
             SpamMer.pidextising = False
+
 
         End If
 
